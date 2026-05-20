@@ -12,8 +12,8 @@ app = FastAPI(title="AI Rental Pricing Tool", version="1.0.0")
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173", "http://localhost:3000"],
-    allow_credentials=True,
+    allow_origins=["*"],
+    allow_credentials=False,
     allow_methods=["*"],
     allow_headers=["*"],
 )
@@ -21,6 +21,11 @@ app.add_middleware(
 app.include_router(pricing.router)
 app.include_router(comparables.router)
 app.include_router(feedback.router)
+
+
+@app.get("/")
+async def root():
+    return {"service": "RentIQ AI Rental Pricing API", "version": "1.0.0", "docs": "/docs"}
 
 
 @app.get("/api/health")
