@@ -2,7 +2,7 @@
 
 > Submission for: AI-assisted Rental Pricing Solution challenge
 
-**Live Demo:** [Frontend on Vercel] | **API:** https://rentiq-backend.onrender.com | **Approach Deck:** https://701428.github.io/rentiq-ai-pricing-tool/
+**Live Demo:** https://rentiq-ai-pricing-tool-j5sf-huokw99we.vercel.app/ | **API:** https://rentiq-backend.onrender.com | **Approach Deck:** https://701428.github.io/rentiq-ai-pricing-tool/
 
 ---
 
@@ -90,4 +90,4 @@ Open `APPROACH_DECK.html` in your browser for the full approach document coverin
 | Backend | Python 3.12, FastAPI, Pydantic v2 |
 | AI | Anthropic Claude (claude-opus-4-6) |
 | Location | OpenStreetMap (Overpass + Nominatim) — free, no key |
-| Deployment | Vercel (frontend) + Railway (backend) |
+| Deployment | Vercel (frontend) + Render (backend) |
