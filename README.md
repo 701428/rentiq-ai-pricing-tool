@@ -2,7 +2,7 @@
 
 > Submission for: AI-assisted Rental Pricing Solution challenge
 
-**Live Demo:** [Frontend on Vercel] | **API:** [Backend on Railway] | **Approach Deck:** `APPROACH_DECK.html`
+**Live Demo:** [Frontend on Vercel] | **API:** https://rentiq-backend.onrender.com | **Approach Deck:** https://701428.github.io/rentiq-ai-pricing-tool/
 
 ---
 
